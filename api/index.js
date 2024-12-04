@@ -58,8 +58,6 @@ app.use("/api/shop/review", shopReviewRouter);
 
 app.use("/api/common/feature", commonFeatureRouter);
 
-app.listen(PORT, () => {
-  console.log(`Server is now running on port ${PORT}`);
-});
+app.listen(3000, () => console.log("Server ready on port 3000."));
 
 module.exports = app;
